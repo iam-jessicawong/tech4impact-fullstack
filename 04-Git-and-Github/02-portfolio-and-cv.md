@@ -67,3 +67,15 @@
     ```
     
 11. unggah Git Repository tersebut kedalam GitHub
+    ```
+    git remote add origin https://github.com/iam-jessicawong/02-portfolio-and-cv.git
+    git branch -M main
+    git push origin main
+    ```
+    
+    [Github repository](https://github.com/iam-jessicawong/02-portfolio-and-cv.git)
+<br/>
+
+### Git log result
+![Git log result](https://user-images.githubusercontent.com/61933958/133918335-8684e837-adad-4e0d-9171-4c1aba999515.png)
+
