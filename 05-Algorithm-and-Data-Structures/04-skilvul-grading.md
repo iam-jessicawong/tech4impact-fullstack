@@ -3,7 +3,7 @@
 1.  START
 2.  STORE nilaiAwal with any NUMBER
 3.  STORE nilaiAkhir without any value
-4.  IF nilaiAwal greater than 100 and less than 0
+4.  IF nilaiAwal greater than 100 or less than 0
 5.    DISPLAY "Grade range from 0 to 100"
 6.  ELSE
 7.    IF nilaiAwal < 68 THEN
