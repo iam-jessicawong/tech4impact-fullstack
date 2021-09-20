@@ -17,10 +17,10 @@ Pseudocode program to check if 1 value is palindrome
 12.   RETURN TRUE
 13. END FUNCTION
 
-13. STORE word with any STRING
-14. STORE result without any value
-15. CALL palindrome(word) and STORE to result
-16. DISPLAY result
+14. STORE word with any STRING
+15. STORE result without any value
+16. CALL palindrome(word) and STORE to result
+17. DISPLAY result
 
-15. FINISH
+18. FINISH
 ```
