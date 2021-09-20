@@ -21,7 +21,8 @@ Pseudocode to convert temperature into celcius. With formula :
 
 13. STORE temperature with any NUMBER
 14. STORE type with any STRING
-15. CALL to_celcius(temperature, type)
+15. CALL to_celcius(temperature, type) and STORE to celcius
+16. DISPLAY celcius
 
-16. FINISH
+17. FINISH
 ```
