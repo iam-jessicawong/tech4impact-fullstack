@@ -20,8 +20,8 @@ console.log(twoDigitsOfPi)
 
 /// Soal - 04
 /// Gunakan built-in function yang dimiliki Javascript untuk mengetahui apakah nilai dibawah ini dapat dikategorikan sebagai Number atau tidak (NaN)
-const isNotNumber = "10000";
-console.log(Number.isNaN(isNotNumber))
+const isNotNumber = isNaN("10000");
+console.log(isNotNumber)
 
 /// Soal - 05
 /// Gunakan built-in function yang dimiliki oleh Javascript untuk mengubah sebuah String menjadi Number
