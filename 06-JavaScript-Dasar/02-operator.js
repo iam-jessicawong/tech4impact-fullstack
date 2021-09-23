@@ -6,6 +6,7 @@
 /// makan = 2000000
 /// kost = 1000000
 /// subscription = 250000
+
 // Declare object pengeluaran, agar bisa dinamis ditambahkan jika ada pengeluaran baru
 const pengeluaran = {
   gundam: 750000,
@@ -24,6 +25,7 @@ for(const property in pengeluaran) {
 /// gajiPokok = 5000000
 /// gajiBonus = 10% dari gajiPokok
 /// gajiLembur = 5% dari gajiPokok
+
 // Declare object gaji
 const gaji = {
   gajiPokok: 5000000
@@ -38,7 +40,7 @@ for(property in gaji) {
 }
 
 /// Sisa Gaji
-const sisaGaji = gajiBersih - totalPengeluaran;
+const sisaGaji = new Intl.NumberFormat("id-ID").format(gajiBersih - totalPengeluaran);
 console.log(`sisaGaji: ${sisaGaji}`)
 
 
