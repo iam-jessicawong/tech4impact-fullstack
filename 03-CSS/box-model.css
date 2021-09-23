@@ -1,0 +1,33 @@
+section#daftar-siswa {
+  background-color: #5f5f5f;
+}
+
+/**
+* ubah tulisan menjadi:
+    warna ⇒ #F3F4F6
+    huruf kapital
+    lebar font menjadi 400
+    merubah font menjadi sans-serif
+ */
+section#daftar-siswa > p {
+  color: #F3F4F6;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ubah warna teks ketika ia sedang miliki hover dengan warna #111827 */
+section#daftar-siswa > p:hover {
+  background-color: #E5E7EB;
+  color: #111827;
+}
+
+/* hapus margin yang dimiliki oleh seluruh elemen p */
+p {
+  margin: 0;
+}
+
+/* memberikan padding pada setiap elemen yang memiliki class="siswa" sebesar 15px untuk kanan dan kiri, sedangkan 10px untuk atas dan bawah */
+.siswa {
+  padding: 10px 15px;
+}

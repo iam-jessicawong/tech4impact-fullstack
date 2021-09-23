@@ -1,0 +1,19 @@
+/* elemen dengan id="daftar-siswa" akan memiliki background dengan kode gainsboro */
+section#daftar-siswa {
+  background-color: gainsboro;
+}
+
+/* elemen pertama yang berada didalam id="daftar-siswa" memiliki bg biru */
+section#daftar-siswa > p:first-child {
+  background-color: #60A5FA;
+}
+
+/* elemen terakhir yang berada didalam id="daftar-siswa" memiliki bg merah */
+section#daftar-siswa > p:last-child {
+  background-color: #F87171;
+}
+
+/* seluruh elemen p yang berada didalam id="daftar-siswa" memiliki bg #E5E7EB ketika di-hover */
+section#daftar-siswa > p:hover {
+  background-color: #E5E7EB;
+}

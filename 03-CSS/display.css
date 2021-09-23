@@ -1,0 +1,28 @@
+/* berikan background lightbluesky */
+nav {
+  background-color: lightblue;
+}
+
+/**
+* ubah display dari elemen a
+* ubah font menjadi sans-serif
+* ubah tebal font menjadi 400
+* ubah warna font menjadi hitam
+* ubah text yang ditampilan menjadi huruf besar semua
+* hilangkan default style yang dimiliki oleh elemen a
+* berikan padding atas dan bawah 10px untuk kanan kiri sebesar 15px
+*/
+nav > a {
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  color: #000;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+/* apabila mendapatkan event hover ia akan memiliki background gainsboro */
+nav > a:hover {
+  background-color: gainsboro;
+}
