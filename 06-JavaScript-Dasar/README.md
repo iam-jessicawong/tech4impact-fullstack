@@ -6,3 +6,9 @@
 03-condition : https://replit.com/@iam-jessicawong/03-condition
 
 04-loop : https://replit.com/@iam-jessicawong/04-loop
+
+05-function : https://replit.com/@iam-jessicawong/05-function
+
+06-scope : https://replit.com/@iam-jessicawong/06-scope
+
+08-DOM : https://replit.com/@iam-jessicawong/08-DOM
