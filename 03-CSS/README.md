@@ -11,7 +11,7 @@ https://53ff5e9e-204a-4b3b-b80e-e3dfcb7f6f85.id.repl.co/display.html
 <br><br>
 
 ## 04-flexbox :
-
+![04-flexbox](https://raw.githubusercontent.com/iam-jessicawong/tech4impact-fullstack/main/03-CSS/04-flexbox.png)
 <br><br>
 
 ## Replit Link
