@@ -1,5 +1,5 @@
 // SOAL-01
-/* const arr1 = [1, 2, 3, 4, 5];
+const arr1 = [1, 2, 3, 4, 5];
 const arr2 = [0, 3, 1, 10, 22];
 function sumOfArray(arr) {
   return (arr.length === 1) ? (arr[0]) : (arr[0] + sumOfArray(arr.slice(1)))
@@ -14,14 +14,18 @@ console.log(sumOfArray(arr2));
 const avg1 = Math.floor(sumOfArray(arr1)/arr1.length);
 const avg2 = Math.floor(sumOfArray(arr2)/arr2.length);
 function countAboveAvg(arr, avg) {
-  return arr.filter(value => (value >= avg)).length
+  if(arr.length === 0) {
+    return 0
+  } else {
+    return (arr[0] > avg? 1 : 0) + countAboveAvg(arr.slice(1), avg)
+  }
 }
 
 const totalAboveAvg1 = countAboveAvg(arr1, avg1);
 const totalAboveAvg2 = countAboveAvg(arr2, avg2);
 
 console.log(totalAboveAvg1);
-console.log(totalAboveAvg2); */
+console.log(totalAboveAvg2);
 
 
 
@@ -51,8 +55,27 @@ searchInArray(arr, 8);
 
 
 // SOAL - 04
-function trianglePattern(column, row) {
-  
+function trianglePattern(row, column) {
+  if(row === 0) {
+    return
+  }
+  else {
+    // set karakter awal sebagai A, kemudian untuk setiap pemanggilan tambahkan dengan column-row, untuk mendapatkan karakter awal yang sesuai dengan kolom ke berapa saat ini, jika ke 2 berarti B jika ke 3 berarti C
+    let startAlphabet = 65 + (column - row)
+    let char = String.fromCharCode(startAlphabet)     // mengubah dari ascii menjadi karakter biasa
+    let string = ""
+    
+    for(let i = 1; i<=column; i++) {
+      if(i < row) {
+        string += " "     // untuk menambah space
+      } else {
+        string += char    // untuk menambah karakternya
+        char = String.fromCharCode(char.charCodeAt(0) + 1)    // untuk setiap perulangan selanjutnya tambahkan dengan 1
+      }
+    }
+    console.log(string)
+    return trianglePattern(row-1, column)
+  }
 }
 
 trianglePattern(5, 5);
