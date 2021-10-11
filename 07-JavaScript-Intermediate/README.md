@@ -9,6 +9,8 @@
 
 05-oop : https://replit.com/@iam-jessicawong/05-oop-1
 
+06-module : https://replit.com/@iam-jessicawong/06-module
+
 07-web-storage : https://replit.com/@iam-jessicawong/07-web-storage
 
 08-asynchronous : 
