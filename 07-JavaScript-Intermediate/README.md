@@ -9,11 +9,16 @@
 
 05-oop : https://replit.com/@iam-jessicawong/05-oop-1
 
+06-module : https://replit.com/@iam-jessicawong/06-module
+
 07-web-storage : https://replit.com/@iam-jessicawong/07-web-storage
 
 08-asynchronous : 
 
 https://replit.com/@iam-jessicawong/01-asynchronous
+
 https://replit.com/@iam-jessicawong/02-asynchronousjs
+
 https://replit.com/@iam-jessicawong/03-asynchronous
+
 https://replit.com/@iam-jessicawong/04-asynchronous
