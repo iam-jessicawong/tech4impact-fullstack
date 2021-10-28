@@ -5,14 +5,21 @@
 /11-react-basic/soal01/.pnp
 /11-react-basic/soal-02/node_modules/*
 /11-react-basic/soal02/.pnp
+/12-react-lanjutan/soal-01/node_modules/*
+/12-react-lanjutan/soal01/.pnp
+/12-react-lanjutan/soal-02/node_modules/*
+/12-react-lanjutan/soal02/.pnp
 .pnp.js
 
 # testing
 /11-react-basic/soal-01/coverage
 /11-react-basic/soal-02/coverage
+/12-react-lanjutan/soal-01/coverage
+/12-react-lanjutan/soal-02/coverage
 
 # production
 /11-react-basic/build
+/12-react-lanjutan/build
 
 # misc
 .DS_Store
