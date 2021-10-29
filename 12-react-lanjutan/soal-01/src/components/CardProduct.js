@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 const CardProduct = ({ name, image, price, addToCart }) => {
   return (
     <div className="card w-100">
@@ -23,5 +25,20 @@ const CardProduct = ({ name, image, price, addToCart }) => {
     </div>
   );
 };
+
+CardProduct.defaultProps = {
+  name: "",
+  price: "",
+  image: "",
+  addToCart: () => null,
+
+}
+
+CardProduct.propTypes = {
+  name: PropTypes.string,
+  price: PropTypes.number,
+  image: PropTypes.string,
+  addToCart: PropTypes.func
+}
 
 export default CardProduct;
