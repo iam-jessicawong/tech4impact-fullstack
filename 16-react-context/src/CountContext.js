@@ -8,15 +8,11 @@ const countReducer = (state, action) => {
   switch (action.type) {
     case 'increment': {
       // code here
-      state.count++
-      return {...state}
+      return { count: state.count + 1 }
     }
     case 'decrement': {
       // code here
-      if(state.count > 0)
-        state.count--
-
-      return {...state}
+      return state.count > 0 ? { count: state.count - 1 } : state
       
     }
     default: {
