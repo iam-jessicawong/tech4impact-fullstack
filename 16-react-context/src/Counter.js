@@ -17,7 +17,7 @@ const Counter = () => {
   return (
     <>
       {/* change 0 with count from context */}
-      Count: {state}
+      Count: { state.count }
       <div>
         {/* use dispatch for onClick method */}
         <button className="count-button" onClick={() => { onInc() }} >+</button>

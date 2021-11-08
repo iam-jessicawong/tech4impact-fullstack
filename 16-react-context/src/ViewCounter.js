@@ -8,7 +8,7 @@ const ViewCounter = () => {
   return (
     <div>
       {/* change 0 with count from context */}
-      Count is { state }
+      Count is { state.count }
     </div>
   );
 }

@@ -1,18 +1,22 @@
 import React from 'react';
 import { createContext, useContext, useReducer } from 'react';
 
-const initialCounter = 0
+const initialCounter = { count: 0 }
 const CountContext = createContext(initialCounter);
 
 const countReducer = (state, action) => {
   switch (action.type) {
     case 'increment': {
       // code here
-      return state + 1
+      state.count++
+      return {...state}
     }
     case 'decrement': {
       // code here
-      return state > 0 ? state - 1 : state
+      if(state.count > 0)
+        state.count--
+
+      return {...state}
       
     }
     default: {
