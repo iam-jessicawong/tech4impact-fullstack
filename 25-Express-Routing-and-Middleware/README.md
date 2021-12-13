@@ -16,7 +16,7 @@ Codesandbox Link: https://codesandbox.io/s/25-express-routing-and-middleware-bdn
 ![Update](assets/update.png)
 
 - Delete
-![Delete](assets\delete.png)
+![Delete](assets/delete.png)
 
 
 2. Soal - 02
