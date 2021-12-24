@@ -4,7 +4,7 @@ const db = require("./helpers/db")
 const router = require("./routes")
 
 const app = express()
-const port = process.env.port || 8000
+const port = process.env.PORT || 3000
 
 async function main() {
   try {
