@@ -56,13 +56,13 @@ const editData = async (req, res) => {
 
 const deleteData = async (req, res) => {
   const {id} = req.params
-
+  
   try {
     await InstructorModel.deleteOne({_id: id})
-
+    
     res.send({message: `instructor with id ${id} removed`})
   } catch (error) {
-    
+    res.status(500).send({error: error})
   }
 }
 
