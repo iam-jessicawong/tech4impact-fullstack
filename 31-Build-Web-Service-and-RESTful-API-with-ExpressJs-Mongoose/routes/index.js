@@ -1,4 +1,5 @@
 const express = require("express")
+const InstructorRouter = require("./instructor")
 const ParticipantRouter = require("./participant")
 
 const router = express.Router()
@@ -9,6 +10,7 @@ router.get("/", (req, res) => {
   })
 })
 
+router.use("/instructor", InstructorRouter)
 router.use("/participant", ParticipantRouter)
 
 module.exports = router
