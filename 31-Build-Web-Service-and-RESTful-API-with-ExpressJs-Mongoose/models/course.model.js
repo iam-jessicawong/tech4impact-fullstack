@@ -17,11 +17,11 @@ const CourseSchema = mongoose.Schema({
     minLength: 1,
     maxLength: 500
   },
-  instructor: [{
+  instructor: {
     type: mongoose.Types.ObjectId,
     required: true,
     ref: "Instructor"
-  }],
+  },
   scheduleDateTime: {
     type: Date,
     required: true
